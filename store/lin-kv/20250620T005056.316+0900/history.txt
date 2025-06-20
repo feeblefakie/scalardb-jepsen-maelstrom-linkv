@@ -1,2 +1,0 @@
-0	:invoke	:read	[0 nil]
-0	:fail	:read	[0 nil]	:net-timeout

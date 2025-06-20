@@ -1,8 +1,0 @@
-/tmp/maelstrom-test.java:5: error: class Test is public, should be declared in a file named Test.java
-public class Test {
-       ^
-Note: /tmp/maelstrom-test.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-1 error
-Error: Could not find or load main class Test
-Caused by: java.lang.ClassNotFoundException: Test

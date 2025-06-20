@@ -1,6 +1,0 @@
-1	:invoke	:write	[0 3]
-1	:info	:write	[0 3]	:net-timeout
-0	:invoke	:read	[0 nil]
-0	:fail	:read	[0 nil]	:net-timeout
-0	:invoke	:read	[0 nil]
-0	:fail	:read	[0 nil]	:net-timeout

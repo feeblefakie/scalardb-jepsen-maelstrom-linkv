@@ -1,6 +1,0 @@
-{:index 0, :time 6639958, :type :invoke, :process 1, :f :write, :value [0 3]}
-{:index 1, :time 1018971500, :type :info, :process 1, :f :write, :value [0 3], :error :net-timeout}
-{:index 2, :time 3624696167, :type :invoke, :process 0, :f :read, :value [0 nil]}
-{:index 3, :time 4633963083, :type :fail, :process 0, :f :read, :value [0 nil], :error :net-timeout}
-{:index 4, :time 4875356250, :type :invoke, :process 0, :f :read, :value [0 nil]}
-{:index 5, :time 5880563125, :type :fail, :process 0, :f :read, :value [0 nil], :error :net-timeout}

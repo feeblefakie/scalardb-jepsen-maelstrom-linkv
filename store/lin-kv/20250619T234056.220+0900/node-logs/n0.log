@@ -1,4 +1,0 @@
-[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":0,"src":"c0","dest":"n0","body":{"type":"init","node_id":"n0","node_ids":["n0"],"msg_id":1}}
-java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local4>" is null
-	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:64)
-	at io.example.scalardbmaelstrom.Main.main(Main.java:38)
