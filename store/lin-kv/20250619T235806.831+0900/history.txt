@@ -1,0 +1,20 @@
+0	:invoke	:read	[0 nil]
+1	:invoke	:write	[0 0]
+0	:fail	:read	[0 nil]	:net-timeout
+0	:invoke	:read	[0 nil]
+1	:info	:write	[0 0]	:net-timeout
+0	:fail	:read	[0 nil]	:net-timeout
+3	:invoke	:cas	[0 [4 2]]
+3	:info	:cas	[0 [4 2]]	:net-timeout
+5	:invoke	:write	[0 3]
+5	:info	:write	[0 3]	:net-timeout
+0	:invoke	:read	[0 nil]
+7	:invoke	:write	[0 2]
+0	:fail	:read	[0 nil]	:net-timeout
+0	:invoke	:read	[0 nil]
+7	:info	:write	[0 2]	:net-timeout
+0	:fail	:read	[0 nil]	:net-timeout
+9	:invoke	:cas	[0 [1 0]]
+9	:info	:cas	[0 [1 0]]	:net-timeout
+0	:invoke	:read	[0 nil]
+0	:fail	:read	[0 nil]	:net-timeout

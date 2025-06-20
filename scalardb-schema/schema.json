@@ -1,0 +1,12 @@
+{
+  "maelstrom.maelstrom_kv": {
+    "transaction": false,
+    "partition-key": [
+      "key"
+    ],
+    "columns": {
+      "key": "TEXT",
+      "value": "TEXT"
+    }
+  }
+}

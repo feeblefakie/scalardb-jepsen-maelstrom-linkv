@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(./gradlew:*)",
+      "Bash(gradle:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:jepsen-io.github.io)",
+      "Bash(./maelstrom test --help)",
+      "Bash(./maelstrom test --workload --help)",
+      "Bash(readlink:*)",
+      "Bash(./maelstrom/maelstrom test:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(jar:*)"
+    ],
+    "deny": []
+  }
+}

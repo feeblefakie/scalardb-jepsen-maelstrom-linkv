@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="2.0" width="1200" height="180" ><style >
+svg {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+}
+rect {
+  stroke-linecap: butt;
+  stroke-width: 3;
+  stroke: #fff;
+/*  stroke-opacity: 1; */
+}
+rect:hover {
+  stroke: #fff;
+/*  stroke-opacity: 1; /*
+}
+polygon { fill: #000; }</style><defs ><polygon id="ahead" points="0 0, -12 4, -12 -4" /><filter id="glow" x="0" y="0" ><feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blurred" /><feFlood flood-color="#fff" /><feComposite operator="in" in2="blurred" /><feComponentTransfer ><feFuncA type="linear" slope="10" intercept="0" /></feComponentTransfer><feMerge ><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g ><text x="300.0" y="20.0" text-anchor="middle" alignment-baseline="middle" fill="#000" >c2</text><text x="900.0" y="20.0" text-anchor="middle" alignment-baseline="middle" fill="#000" >n0</text></g><g ><line stroke="#ccc" x1="300.0" y1="30.0" x2="300.0" y2="90.0" /><line stroke="#ccc" x1="900.0" y1="30.0" x2="900.0" y2="90.0" /></g><g ><g transform="translate(300.0 50.0) rotate(1.9091524329963763) " ><rect x="0" y="-2.5" height="5" width="596.3332407921454" fill="#81BFFC" ><title >c2 → n0 {:key 0, :type "read", :msg_id 1}</title></rect><use xlink:href="#ahead" x="600.3332407921454" y="0" /><text text-anchor="middle" x="300.1666203960727" y="-4" transform="" filter="url(#glow)" style="fill: #fff" >read {:key 0}</text><text text-anchor="middle" x="300.1666203960727" y="-4" transform="" >read {:key 0}</text></g></g></svg>

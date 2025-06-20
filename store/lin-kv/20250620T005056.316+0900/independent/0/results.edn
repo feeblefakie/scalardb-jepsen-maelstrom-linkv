@@ -1,0 +1,6 @@
+{:linearizable
+ {:valid? true,
+  :configs ({:model {:value nil}, :last-op nil, :pending []}),
+  :final-paths ()},
+ :timeline {:valid? true},
+ :valid? true}

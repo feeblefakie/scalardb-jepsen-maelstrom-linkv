@@ -1,0 +1,22 @@
+{:index 0, :time 6651000, :type :invoke, :process 1, :f :cas, :value [4 1]}
+{:index 1, :time 216603917, :type :invoke, :process 0, :f :read, :value nil}
+{:index 2, :time 1019843208, :type :info, :process 1, :f :cas, :value [4 1], :error :net-timeout}
+{:index 3, :time 1020878875, :type :invoke, :process 3, :f :write, :value 3}
+{:index 4, :time 1218344333, :type :fail, :process 0, :f :read, :value nil, :error :net-timeout}
+{:index 5, :time 2027511375, :type :info, :process 3, :f :write, :value 3, :error :net-timeout}
+{:index 6, :time 2678228042, :type :invoke, :process 0, :f :read, :value nil}
+{:index 7, :time 3683086083, :type :fail, :process 0, :f :read, :value nil, :error :net-timeout}
+{:index 8, :time 3717403250, :type :invoke, :process 0, :f :read, :value nil}
+{:index 9, :time 4104155625, :type :invoke, :process 5, :f :cas, :value [3 4]}
+{:index 10, :time 4726018250, :type :fail, :process 0, :f :read, :value nil, :error :net-timeout}
+{:index 11, :time 5026550625, :type :invoke, :process 0, :f :read, :value nil}
+{:index 12, :time 5109114250, :type :info, :process 5, :f :cas, :value [3 4], :error :net-timeout}
+{:index 13, :time 6033424417, :type :fail, :process 0, :f :read, :value nil, :error :net-timeout}
+{:index 14, :time 6220015542, :type :invoke, :process 0, :f :read, :value nil}
+{:index 15, :time 7112622792, :type :invoke, :process 7, :f :cas, :value [3 3]}
+{:index 16, :time 7225577417, :type :fail, :process 0, :f :read, :value nil, :error :net-timeout}
+{:index 17, :time 8114556875, :type :info, :process 7, :f :cas, :value [3 3], :error :net-timeout}
+{:index 18, :time 8143101667, :type :invoke, :process 0, :f :read, :value nil}
+{:index 19, :time 9148230333, :type :fail, :process 0, :f :read, :value nil, :error :net-timeout}
+{:index 20, :time 9785718458, :type :invoke, :process 0, :f :read, :value nil}
+{:index 21, :time 10787826792, :type :fail, :process 0, :f :read, :value nil, :error :net-timeout}

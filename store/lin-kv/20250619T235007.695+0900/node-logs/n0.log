@@ -1,0 +1,55 @@
+[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":2,"src":"c2","dest":"n0","body":{"key":0,"from":4,"to":1,"type":"cas","msg_id":1}}
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.example.scalardbmaelstrom.protocol.MaelstromRequest.getKey(MaelstromRequest.java:46)
+	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:96)
+	at io.example.scalardbmaelstrom.Main.main(Main.java:38)
+[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":3,"src":"c3","dest":"n0","body":{"key":0,"type":"read","msg_id":1}}
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.example.scalardbmaelstrom.protocol.MaelstromRequest.getKey(MaelstromRequest.java:46)
+	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:74)
+	at io.example.scalardbmaelstrom.Main.main(Main.java:38)
+[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":4,"src":"c2","dest":"n0","body":{"key":0,"value":3,"type":"write","msg_id":2}}
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.example.scalardbmaelstrom.protocol.MaelstromRequest.getKey(MaelstromRequest.java:46)
+	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:87)
+	at io.example.scalardbmaelstrom.Main.main(Main.java:38)
+[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":5,"src":"c3","dest":"n0","body":{"key":0,"type":"read","msg_id":2}}
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.example.scalardbmaelstrom.protocol.MaelstromRequest.getKey(MaelstromRequest.java:46)
+	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:74)
+	at io.example.scalardbmaelstrom.Main.main(Main.java:38)
+[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":6,"src":"c3","dest":"n0","body":{"key":0,"type":"read","msg_id":3}}
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.example.scalardbmaelstrom.protocol.MaelstromRequest.getKey(MaelstromRequest.java:46)
+	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:74)
+	at io.example.scalardbmaelstrom.Main.main(Main.java:38)
+[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":7,"src":"c2","dest":"n0","body":{"key":0,"from":3,"to":4,"type":"cas","msg_id":3}}
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.example.scalardbmaelstrom.protocol.MaelstromRequest.getKey(MaelstromRequest.java:46)
+	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:96)
+	at io.example.scalardbmaelstrom.Main.main(Main.java:38)
+[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":8,"src":"c3","dest":"n0","body":{"key":0,"type":"read","msg_id":4}}
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.example.scalardbmaelstrom.protocol.MaelstromRequest.getKey(MaelstromRequest.java:46)
+	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:74)
+	at io.example.scalardbmaelstrom.Main.main(Main.java:38)
+[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":9,"src":"c3","dest":"n0","body":{"key":0,"type":"read","msg_id":5}}
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.example.scalardbmaelstrom.protocol.MaelstromRequest.getKey(MaelstromRequest.java:46)
+	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:74)
+	at io.example.scalardbmaelstrom.Main.main(Main.java:38)
+[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":10,"src":"c2","dest":"n0","body":{"key":0,"from":3,"to":3,"type":"cas","msg_id":4}}
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.example.scalardbmaelstrom.protocol.MaelstromRequest.getKey(MaelstromRequest.java:46)
+	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:96)
+	at io.example.scalardbmaelstrom.Main.main(Main.java:38)
+[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":11,"src":"c3","dest":"n0","body":{"key":0,"type":"read","msg_id":6}}
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.example.scalardbmaelstrom.protocol.MaelstromRequest.getKey(MaelstromRequest.java:46)
+	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:74)
+	at io.example.scalardbmaelstrom.Main.main(Main.java:38)
+[main] ERROR io.example.scalardbmaelstrom.Main - Error processing request: {"id":12,"src":"c3","dest":"n0","body":{"key":0,"type":"read","msg_id":7}}
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.example.scalardbmaelstrom.protocol.MaelstromRequest.getKey(MaelstromRequest.java:46)
+	at io.example.scalardbmaelstrom.Main.handleRequest(Main.java:74)
+	at io.example.scalardbmaelstrom.Main.main(Main.java:38)

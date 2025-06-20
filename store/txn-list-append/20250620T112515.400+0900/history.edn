@@ -1,0 +1,202 @@
+{:index 0, :time 8922458, :type :invoke, :process 0, :f :txn, :value [[:append 2 1] [:r 1 nil]]}
+{:index 1, :time 21419667, :type :fail, :process 0, :f :txn, :value [[:append 2 1] [:r 1 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 2, :time 152221792, :type :invoke, :process 0, :f :txn, :value [[:append 1 1] [:r 2 nil] [:r 1 nil] [:r 1 nil]]}
+{:index 3, :time 155311208, :type :fail, :process 0, :f :txn, :value [[:append 1 1] [:r 2 nil] [:r 1 nil] [:r 1 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 4, :time 192189333, :type :invoke, :process 0, :f :txn, :value [[:append 2 2] [:append 0 1] [:r 2 nil] [:append 2 3]]}
+{:index 5, :time 195434458, :type :fail, :process 0, :f :txn, :value [[:append 2 2] [:append 0 1] [:r 2 nil] [:append 2 3]], :error [:not-supported "unsupported operation: txn"]}
+{:index 6, :time 336575042, :type :invoke, :process 0, :f :txn, :value [[:append 1 2] [:r 0 nil] [:r 0 nil] [:r 2 nil]]}
+{:index 7, :time 358738250, :type :fail, :process 0, :f :txn, :value [[:append 1 2] [:r 0 nil] [:r 0 nil] [:r 2 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 8, :time 437751083, :type :invoke, :process 0, :f :txn, :value [[:r 1 nil] [:append 2 4] [:r 0 nil]]}
+{:index 9, :time 460252750, :type :fail, :process 0, :f :txn, :value [[:r 1 nil] [:append 2 4] [:r 0 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 10, :time 600791542, :type :invoke, :process 0, :f :txn, :value [[:append 2 5]]}
+{:index 11, :time 607762833, :type :fail, :process 0, :f :txn, :value [[:append 2 5]], :error [:not-supported "unsupported operation: txn"]}
+{:index 12, :time 704679917, :type :invoke, :process 0, :f :txn, :value [[:append 2 6]]}
+{:index 13, :time 709461958, :type :fail, :process 0, :f :txn, :value [[:append 2 6]], :error [:not-supported "unsupported operation: txn"]}
+{:index 14, :time 901654750, :type :invoke, :process 0, :f :txn, :value [[:r 2 nil] [:append 0 2]]}
+{:index 15, :time 914563708, :type :fail, :process 0, :f :txn, :value [[:r 2 nil] [:append 0 2]], :error [:not-supported "unsupported operation: txn"]}
+{:index 16, :time 945913667, :type :invoke, :process 0, :f :txn, :value [[:append 2 7]]}
+{:index 17, :time 957056042, :type :fail, :process 0, :f :txn, :value [[:append 2 7]], :error [:not-supported "unsupported operation: txn"]}
+{:index 18, :time 1055102625, :type :invoke, :process 0, :f :txn, :value [[:append 2 8] [:append 2 9] [:append 1 3] [:append 2 10]]}
+{:index 19, :time 1059052750, :type :fail, :process 0, :f :txn, :value [[:append 2 8] [:append 2 9] [:append 1 3] [:append 2 10]], :error [:not-supported "unsupported operation: txn"]}
+{:index 20, :time 1144763458, :type :invoke, :process 0, :f :txn, :value [[:append 2 11]]}
+{:index 21, :time 1160757292, :type :fail, :process 0, :f :txn, :value [[:append 2 11]], :error [:not-supported "unsupported operation: txn"]}
+{:index 22, :time 1289150375, :type :invoke, :process 0, :f :txn, :value [[:r 2 nil]]}
+{:index 23, :time 1306121208, :type :fail, :process 0, :f :txn, :value [[:r 2 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 24, :time 1416854208, :type :invoke, :process 0, :f :txn, :value [[:r 1 nil] [:append 1 4] [:r 2 nil]]}
+{:index 25, :time 1426356375, :type :fail, :process 0, :f :txn, :value [[:r 1 nil] [:append 1 4] [:r 2 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 26, :time 1588015208, :type :invoke, :process 0, :f :txn, :value [[:r 2 nil]]}
+{:index 27, :time 1593410000, :type :fail, :process 0, :f :txn, :value [[:r 2 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 28, :time 1695559042, :type :invoke, :process 0, :f :txn, :value [[:append 0 3] [:append 1 5] [:append 0 4] [:r 1 nil]]}
+{:index 29, :time 1704607583, :type :fail, :process 0, :f :txn, :value [[:append 0 3] [:append 1 5] [:append 0 4] [:r 1 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 30, :time 1825491250, :type :invoke, :process 0, :f :txn, :value [[:append 1 6]]}
+{:index 31, :time 1833647000, :type :fail, :process 0, :f :txn, :value [[:append 1 6]], :error [:not-supported "unsupported operation: txn"]}
+{:index 32, :time 1954478833, :type :invoke, :process 0, :f :txn, :value [[:r 0 nil] [:r 2 nil] [:append 1 7]]}
+{:index 33, :time 1962859167, :type :fail, :process 0, :f :txn, :value [[:r 0 nil] [:r 2 nil] [:append 1 7]], :error [:not-supported "unsupported operation: txn"]}
+{:index 34, :time 2155065667, :type :invoke, :process 0, :f :txn, :value [[:r 1 nil] [:r 2 nil] [:r 2 nil]]}
+{:index 35, :time 2163506208, :type :fail, :process 0, :f :txn, :value [[:r 1 nil] [:r 2 nil] [:r 2 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 36, :time 2248946625, :type :invoke, :process 0, :f :txn, :value [[:append 2 12]]}
+{:index 37, :time 2252790583, :type :fail, :process 0, :f :txn, :value [[:append 2 12]], :error [:not-supported "unsupported operation: txn"]}
+{:index 38, :time 2445081833, :type :invoke, :process 0, :f :txn, :value [[:append 1 8] [:append 2 13] [:append 1 9] [:r 2 nil]]}
+{:index 39, :time 2459865042, :type :fail, :process 0, :f :txn, :value [[:append 1 8] [:append 2 13] [:append 1 9] [:r 2 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 40, :time 2498550792, :type :invoke, :process 0, :f :txn, :value [[:append 2 14]]}
+{:index 41, :time 2511689667, :type :fail, :process 0, :f :txn, :value [[:append 2 14]], :error [:not-supported "unsupported operation: txn"]}
+{:index 42, :time 2525937708, :type :invoke, :process 0, :f :txn, :value [[:r 1 nil] [:r 2 nil] [:r 2 nil]]}
+{:index 43, :time 2532229208, :type :fail, :process 0, :f :txn, :value [[:r 1 nil] [:r 2 nil] [:r 2 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 44, :time 2539242542, :type :invoke, :process 0, :f :txn, :value [[:append 2 15] [:append 1 10]]}
+{:index 45, :time 2542216458, :type :fail, :process 0, :f :txn, :value [[:append 2 15] [:append 1 10]], :error [:not-supported "unsupported operation: txn"]}
+{:index 46, :time 2685754458, :type :invoke, :process 0, :f :txn, :value [[:append 2 16] [:append 1 11] [:r 2 nil] [:append 3 1]]}
+{:index 47, :time 2695263417, :type :fail, :process 0, :f :txn, :value [[:append 2 16] [:append 1 11] [:r 2 nil] [:append 3 1]], :error [:not-supported "unsupported operation: txn"]}
+{:index 48, :time 2837613250, :type :invoke, :process 0, :f :txn, :value [[:append 0 5] [:r 1 nil] [:r 1 nil]]}
+{:index 49, :time 2849213875, :type :fail, :process 0, :f :txn, :value [[:append 0 5] [:r 1 nil] [:r 1 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 50, :time 2883658875, :type :invoke, :process 0, :f :txn, :value [[:append 1 12] [:r 0 nil] [:append 3 2]]}
+{:index 51, :time 2889573458, :type :fail, :process 0, :f :txn, :value [[:append 1 12] [:r 0 nil] [:append 3 2]], :error [:not-supported "unsupported operation: txn"]}
+{:index 52, :time 2956840333, :type :invoke, :process 0, :f :txn, :value [[:append 3 3] [:r 3 nil]]}
+{:index 53, :time 2965728292, :type :fail, :process 0, :f :txn, :value [[:append 3 3] [:r 3 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 54, :time 3086685417, :type :invoke, :process 0, :f :txn, :value [[:append 3 4] [:append 3 5] [:append 3 6] [:r 1 nil]]}
+{:index 55, :time 3104444917, :type :fail, :process 0, :f :txn, :value [[:append 3 4] [:append 3 5] [:append 3 6] [:r 1 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 56, :time 3123283292, :type :invoke, :process 0, :f :txn, :value [[:r 1 nil] [:r 3 nil]]}
+{:index 57, :time 3132921083, :type :fail, :process 0, :f :txn, :value [[:r 1 nil] [:r 3 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 58, :time 3174377500, :type :invoke, :process 0, :f :txn, :value [[:append 1 13] [:append 3 7] [:r 3 nil]]}
+{:index 59, :time 3190259625, :type :fail, :process 0, :f :txn, :value [[:append 1 13] [:append 3 7] [:r 3 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 60, :time 3235979792, :type :invoke, :process 0, :f :txn, :value [[:r 3 nil] [:append 3 8]]}
+{:index 61, :time 3248600583, :type :fail, :process 0, :f :txn, :value [[:r 3 nil] [:append 3 8]], :error [:not-supported "unsupported operation: txn"]}
+{:index 62, :time 3305955958, :type :invoke, :process 0, :f :txn, :value [[:r 3 nil]]}
+{:index 63, :time 3323948583, :type :fail, :process 0, :f :txn, :value [[:r 3 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 64, :time 3351832917, :type :invoke, :process 0, :f :txn, :value [[:append 3 9] [:r 3 nil] [:append 0 6]]}
+{:index 65, :time 3354336917, :type :fail, :process 0, :f :txn, :value [[:append 3 9] [:r 3 nil] [:append 0 6]], :error [:not-supported "unsupported operation: txn"]}
+{:index 66, :time 3381453500, :type :invoke, :process 0, :f :txn, :value [[:r 3 nil] [:r 3 nil]]}
+{:index 67, :time 3388445917, :type :fail, :process 0, :f :txn, :value [[:r 3 nil] [:r 3 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 68, :time 3467703792, :type :invoke, :process 0, :f :txn, :value [[:r 3 nil] [:r 1 nil]]}
+{:index 69, :time 3484987083, :type :fail, :process 0, :f :txn, :value [[:r 3 nil] [:r 1 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 70, :time 3600770417, :type :invoke, :process 0, :f :txn, :value [[:r 0 nil] [:append 3 10]]}
+{:index 71, :time 3609919292, :type :fail, :process 0, :f :txn, :value [[:r 0 nil] [:append 3 10]], :error [:not-supported "unsupported operation: txn"]}
+{:index 72, :time 3790859458, :type :invoke, :process 0, :f :txn, :value [[:append 1 14] [:r 0 nil]]}
+{:index 73, :time 3812528292, :type :fail, :process 0, :f :txn, :value [[:append 1 14] [:r 0 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 74, :time 3903658583, :type :invoke, :process 0, :f :txn, :value [[:append 3 11]]}
+{:index 75, :time 3907644875, :type :fail, :process 0, :f :txn, :value [[:append 3 11]], :error [:not-supported "unsupported operation: txn"]}
+{:index 76, :time 3950862542, :type :invoke, :process 0, :f :txn, :value [[:append 3 12] [:append 3 13]]}
+{:index 77, :time 3956202167, :type :fail, :process 0, :f :txn, :value [[:append 3 12] [:append 3 13]], :error [:not-supported "unsupported operation: txn"]}
+{:index 78, :time 3966700250, :type :invoke, :process 0, :f :txn, :value [[:r 1 nil] [:r 1 nil] [:r 1 nil]]}
+{:index 79, :time 3973008625, :type :fail, :process 0, :f :txn, :value [[:r 1 nil] [:r 1 nil] [:r 1 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 80, :time 4023433125, :type :invoke, :process 0, :f :txn, :value [[:r 0 nil]]}
+{:index 81, :time 4034419542, :type :fail, :process 0, :f :txn, :value [[:r 0 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 82, :time 4084980417, :type :invoke, :process 0, :f :txn, :value [[:append 3 14] [:r 3 nil] [:append 3 15] [:append 0 7]]}
+{:index 83, :time 4086893583, :type :fail, :process 0, :f :txn, :value [[:append 3 14] [:r 3 nil] [:append 3 15] [:append 0 7]], :error [:not-supported "unsupported operation: txn"]}
+{:index 84, :time 4195824708, :type :invoke, :process 0, :f :txn, :value [[:r 3 nil] [:r 3 nil] [:r 3 nil]]}
+{:index 85, :time 4199375708, :type :fail, :process 0, :f :txn, :value [[:r 3 nil] [:r 3 nil] [:r 3 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 86, :time 4372436708, :type :invoke, :process 0, :f :txn, :value [[:r 3 nil] [:r 3 nil] [:append 1 15]]}
+{:index 87, :time 4378325792, :type :fail, :process 0, :f :txn, :value [[:r 3 nil] [:r 3 nil] [:append 1 15]], :error [:not-supported "unsupported operation: txn"]}
+{:index 88, :time 4517323500, :type :invoke, :process 0, :f :txn, :value [[:r 3 nil] [:r 1 nil]]}
+{:index 89, :time 4521030542, :type :fail, :process 0, :f :txn, :value [[:r 3 nil] [:r 1 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 90, :time 4618431583, :type :invoke, :process 0, :f :txn, :value [[:append 1 16] [:r 1 nil]]}
+{:index 91, :time 4633522417, :type :fail, :process 0, :f :txn, :value [[:append 1 16] [:r 1 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 92, :time 4708745333, :type :invoke, :process 0, :f :txn, :value [[:r 3 nil] [:append 4 1] [:r 3 nil]]}
+{:index 93, :time 4715738417, :type :fail, :process 0, :f :txn, :value [[:r 3 nil] [:append 4 1] [:r 3 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 94, :time 4718639333, :type :invoke, :process 0, :f :txn, :value [[:append 4 2] [:r 3 nil] [:append 3 16]]}
+{:index 95, :time 4719868083, :type :fail, :process 0, :f :txn, :value [[:append 4 2] [:r 3 nil] [:append 3 16]], :error [:not-supported "unsupported operation: txn"]}
+{:index 96, :time 4763743833, :type :invoke, :process 0, :f :txn, :value [[:r 0 nil] [:r 4 nil]]}
+{:index 97, :time 4784424167, :type :fail, :process 0, :f :txn, :value [[:r 0 nil] [:r 4 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 98, :time 4922182208, :type :invoke, :process 0, :f :txn, :value [[:r 3 nil] [:r 3 nil] [:r 0 nil] [:append 4 3]]}
+{:index 99, :time 4927799750, :type :fail, :process 0, :f :txn, :value [[:r 3 nil] [:r 3 nil] [:r 0 nil] [:append 4 3]], :error [:not-supported "unsupported operation: txn"]}
+{:index 100, :time 4945870000, :type :invoke, :process 0, :f :txn, :value [[:append 4 4] [:r 5 nil] [:append 4 5] [:append 5 1]]}
+{:index 101, :time 4950831667, :type :fail, :process 0, :f :txn, :value [[:append 4 4] [:r 5 nil] [:append 4 5] [:append 5 1]], :error [:not-supported "unsupported operation: txn"]}
+{:index 102, :time 5108814625, :type :invoke, :process 0, :f :txn, :value [[:r 4 nil] [:append 0 8]]}
+{:index 103, :time 5112430542, :type :fail, :process 0, :f :txn, :value [[:r 4 nil] [:append 0 8]], :error [:not-supported "unsupported operation: txn"]}
+{:index 104, :time 5260956458, :type :invoke, :process 0, :f :txn, :value [[:r 5 nil] [:append 5 2] [:append 4 6]]}
+{:index 105, :time 5267734583, :type :fail, :process 0, :f :txn, :value [[:r 5 nil] [:append 5 2] [:append 4 6]], :error [:not-supported "unsupported operation: txn"]}
+{:index 106, :time 5397836083, :type :invoke, :process 0, :f :txn, :value [[:r 5 nil] [:append 5 3] [:append 5 4]]}
+{:index 107, :time 5403001042, :type :fail, :process 0, :f :txn, :value [[:r 5 nil] [:append 5 3] [:append 5 4]], :error [:not-supported "unsupported operation: txn"]}
+{:index 108, :time 5449407958, :type :invoke, :process 0, :f :txn, :value [[:r 5 nil] [:append 0 9] [:append 5 5] [:r 4 nil]]}
+{:index 109, :time 5454583542, :type :fail, :process 0, :f :txn, :value [[:r 5 nil] [:append 0 9] [:append 5 5] [:r 4 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 110, :time 5523812375, :type :invoke, :process 0, :f :txn, :value [[:r 5 nil] [:append 5 6] [:append 4 7] [:append 5 7]]}
+{:index 111, :time 5528588125, :type :fail, :process 0, :f :txn, :value [[:r 5 nil] [:append 5 6] [:append 4 7] [:append 5 7]], :error [:not-supported "unsupported operation: txn"]}
+{:index 112, :time 5571900917, :type :invoke, :process 0, :f :txn, :value [[:r 5 nil]]}
+{:index 113, :time 5579488542, :type :fail, :process 0, :f :txn, :value [[:r 5 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 114, :time 5668823083, :type :invoke, :process 0, :f :txn, :value [[:append 4 8] [:append 5 8]]}
+{:index 115, :time 5681501083, :type :fail, :process 0, :f :txn, :value [[:append 4 8] [:append 5 8]], :error [:not-supported "unsupported operation: txn"]}
+{:index 116, :time 5702756208, :type :invoke, :process 0, :f :txn, :value [[:append 5 9]]}
+{:index 117, :time 5704481250, :type :fail, :process 0, :f :txn, :value [[:append 5 9]], :error [:not-supported "unsupported operation: txn"]}
+{:index 118, :time 5762699667, :type :invoke, :process 0, :f :txn, :value [[:append 0 10] [:r 5 nil] [:append 4 9] [:append 5 10]]}
+{:index 119, :time 5776191250, :type :fail, :process 0, :f :txn, :value [[:append 0 10] [:r 5 nil] [:append 4 9] [:append 5 10]], :error [:not-supported "unsupported operation: txn"]}
+{:index 120, :time 5841338833, :type :invoke, :process 0, :f :txn, :value [[:r 5 nil] [:append 4 10] [:append 5 11]]}
+{:index 121, :time 5845414625, :type :fail, :process 0, :f :txn, :value [[:r 5 nil] [:append 4 10] [:append 5 11]], :error [:not-supported "unsupported operation: txn"]}
+{:index 122, :time 6029185125, :type :invoke, :process 0, :f :txn, :value [[:r 0 nil] [:append 4 11] [:append 5 12] [:r 5 nil]]}
+{:index 123, :time 6037840917, :type :fail, :process 0, :f :txn, :value [[:r 0 nil] [:append 4 11] [:append 5 12] [:r 5 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 124, :time 6177100083, :type :invoke, :process 0, :f :txn, :value [[:r 4 nil] [:r 4 nil] [:append 5 13]]}
+{:index 125, :time 6181706458, :type :fail, :process 0, :f :txn, :value [[:r 4 nil] [:r 4 nil] [:append 5 13]], :error [:not-supported "unsupported operation: txn"]}
+{:index 126, :time 6286807667, :type :invoke, :process 0, :f :txn, :value [[:append 5 14] [:append 4 12] [:append 5 15] [:r 5 nil]]}
+{:index 127, :time 6305058375, :type :fail, :process 0, :f :txn, :value [[:append 5 14] [:append 4 12] [:append 5 15] [:r 5 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 128, :time 6476055750, :type :invoke, :process 0, :f :txn, :value [[:append 0 11]]}
+{:index 129, :time 6479460167, :type :fail, :process 0, :f :txn, :value [[:append 0 11]], :error [:not-supported "unsupported operation: txn"]}
+{:index 130, :time 6557127083, :type :invoke, :process 0, :f :txn, :value [[:append 0 12] [:append 4 13]]}
+{:index 131, :time 6562985333, :type :fail, :process 0, :f :txn, :value [[:append 0 12] [:append 4 13]], :error [:not-supported "unsupported operation: txn"]}
+{:index 132, :time 6577755792, :type :invoke, :process 0, :f :txn, :value [[:r 0 nil] [:r 0 nil]]}
+{:index 133, :time 6584091458, :type :fail, :process 0, :f :txn, :value [[:r 0 nil] [:r 0 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 134, :time 6730851792, :type :invoke, :process 0, :f :txn, :value [[:append 5 16] [:append 0 13]]}
+{:index 135, :time 6746103625, :type :fail, :process 0, :f :txn, :value [[:append 5 16] [:append 0 13]], :error [:not-supported "unsupported operation: txn"]}
+{:index 136, :time 6823364583, :type :invoke, :process 0, :f :txn, :value [[:append 6 1] [:append 6 2]]}
+{:index 137, :time 6838371083, :type :fail, :process 0, :f :txn, :value [[:append 6 1] [:append 6 2]], :error [:not-supported "unsupported operation: txn"]}
+{:index 138, :time 6838474833, :type :invoke, :process 0, :f :txn, :value [[:r 6 nil] [:append 6 3] [:append 4 14]]}
+{:index 139, :time 6842598750, :type :fail, :process 0, :f :txn, :value [[:r 6 nil] [:append 6 3] [:append 4 14]], :error [:not-supported "unsupported operation: txn"]}
+{:index 140, :time 7037001917, :type :invoke, :process 0, :f :txn, :value [[:append 0 14]]}
+{:index 141, :time 7041618417, :type :fail, :process 0, :f :txn, :value [[:append 0 14]], :error [:not-supported "unsupported operation: txn"]}
+{:index 142, :time 7158519292, :type :invoke, :process 0, :f :txn, :value [[:r 0 nil] [:r 6 nil] [:r 4 nil]]}
+{:index 143, :time 7161748250, :type :fail, :process 0, :f :txn, :value [[:r 0 nil] [:r 6 nil] [:r 4 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 144, :time 7180406958, :type :invoke, :process 0, :f :txn, :value [[:r 0 nil]]}
+{:index 145, :time 7189694333, :type :fail, :process 0, :f :txn, :value [[:r 0 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 146, :time 7354440417, :type :invoke, :process 0, :f :txn, :value [[:append 4 15] [:append 4 16] [:r 6 nil]]}
+{:index 147, :time 7357915917, :type :fail, :process 0, :f :txn, :value [[:append 4 15] [:append 4 16] [:r 6 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 148, :time 7487943000, :type :invoke, :process 0, :f :txn, :value [[:append 6 4]]}
+{:index 149, :time 7500651375, :type :fail, :process 0, :f :txn, :value [[:append 6 4]], :error [:not-supported "unsupported operation: txn"]}
+{:index 150, :time 7536511333, :type :invoke, :process 0, :f :txn, :value [[:r 6 nil] [:r 4 nil] [:r 6 nil]]}
+{:index 151, :time 7538778250, :type :fail, :process 0, :f :txn, :value [[:r 6 nil] [:r 4 nil] [:r 6 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 152, :time 7712730958, :type :invoke, :process 0, :f :txn, :value [[:r 4 nil] [:append 0 15]]}
+{:index 153, :time 7717031750, :type :fail, :process 0, :f :txn, :value [[:r 4 nil] [:append 0 15]], :error [:not-supported "unsupported operation: txn"]}
+{:index 154, :time 7848566583, :type :invoke, :process 0, :f :txn, :value [[:append 6 5]]}
+{:index 155, :time 7853302167, :type :fail, :process 0, :f :txn, :value [[:append 6 5]], :error [:not-supported "unsupported operation: txn"]}
+{:index 156, :time 7870197292, :type :invoke, :process 0, :f :txn, :value [[:r 6 nil] [:r 4 nil] [:append 6 6] [:append 6 7]]}
+{:index 157, :time 7873124042, :type :fail, :process 0, :f :txn, :value [[:r 6 nil] [:r 4 nil] [:append 6 6] [:append 6 7]], :error [:not-supported "unsupported operation: txn"]}
+{:index 158, :time 7909715542, :type :invoke, :process 0, :f :txn, :value [[:append 0 16] [:r 6 nil]]}
+{:index 159, :time 7913469375, :type :fail, :process 0, :f :txn, :value [[:append 0 16] [:r 6 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 160, :time 7990600833, :type :invoke, :process 0, :f :txn, :value [[:append 6 8] [:r 6 nil] [:r 7 nil]]}
+{:index 161, :time 7996282417, :type :fail, :process 0, :f :txn, :value [[:append 6 8] [:r 6 nil] [:r 7 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 162, :time 8035852250, :type :invoke, :process 0, :f :txn, :value [[:append 6 9] [:r 6 nil] [:r 6 nil]]}
+{:index 163, :time 8039370167, :type :fail, :process 0, :f :txn, :value [[:append 6 9] [:r 6 nil] [:r 6 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 164, :time 8081074708, :type :invoke, :process 0, :f :txn, :value [[:r 6 nil] [:append 7 1] [:append 6 10]]}
+{:index 165, :time 8088647208, :type :fail, :process 0, :f :txn, :value [[:r 6 nil] [:append 7 1] [:append 6 10]], :error [:not-supported "unsupported operation: txn"]}
+{:index 166, :time 8124601417, :type :invoke, :process 0, :f :txn, :value [[:append 6 11]]}
+{:index 167, :time 8134673708, :type :fail, :process 0, :f :txn, :value [[:append 6 11]], :error [:not-supported "unsupported operation: txn"]}
+{:index 168, :time 8257556833, :type :invoke, :process 0, :f :txn, :value [[:r 6 nil]]}
+{:index 169, :time 8265709667, :type :fail, :process 0, :f :txn, :value [[:r 6 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 170, :time 8444831333, :type :invoke, :process 0, :f :txn, :value [[:r 6 nil]]}
+{:index 171, :time 8451880000, :type :fail, :process 0, :f :txn, :value [[:r 6 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 172, :time 8525173708, :type :invoke, :process 0, :f :txn, :value [[:r 7 nil]]}
+{:index 173, :time 8532444042, :type :fail, :process 0, :f :txn, :value [[:r 7 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 174, :time 8565867167, :type :invoke, :process 0, :f :txn, :value [[:append 6 12] [:append 6 13] [:append 6 14]]}
+{:index 175, :time 8569029625, :type :fail, :process 0, :f :txn, :value [[:append 6 12] [:append 6 13] [:append 6 14]], :error [:not-supported "unsupported operation: txn"]}
+{:index 176, :time 8669868667, :type :invoke, :process 0, :f :txn, :value [[:r 6 nil] [:append 6 15] [:append 7 2] [:append 8 1]]}
+{:index 177, :time 8683198625, :type :fail, :process 0, :f :txn, :value [[:r 6 nil] [:append 6 15] [:append 7 2] [:append 8 1]], :error [:not-supported "unsupported operation: txn"]}
+{:index 178, :time 8810036750, :type :invoke, :process 0, :f :txn, :value [[:r 7 nil] [:append 8 2] [:r 8 nil] [:r 6 nil]]}
+{:index 179, :time 8818031083, :type :fail, :process 0, :f :txn, :value [[:r 7 nil] [:append 8 2] [:r 8 nil] [:r 6 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 180, :time 8903832375, :type :invoke, :process 0, :f :txn, :value [[:r 8 nil] [:append 6 16] [:r 7 nil]]}
+{:index 181, :time 8907073042, :type :fail, :process 0, :f :txn, :value [[:r 8 nil] [:append 6 16] [:r 7 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 182, :time 9047344667, :type :invoke, :process 0, :f :txn, :value [[:r 8 nil] [:append 9 1] [:r 9 nil] [:append 7 3]]}
+{:index 183, :time 9054840208, :type :fail, :process 0, :f :txn, :value [[:r 8 nil] [:append 9 1] [:r 9 nil] [:append 7 3]], :error [:not-supported "unsupported operation: txn"]}
+{:index 184, :time 9075430792, :type :invoke, :process 0, :f :txn, :value [[:append 9 2] [:r 9 nil] [:r 9 nil]]}
+{:index 185, :time 9086858417, :type :fail, :process 0, :f :txn, :value [[:append 9 2] [:r 9 nil] [:r 9 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 186, :time 9169397375, :type :invoke, :process 0, :f :txn, :value [[:append 9 3] [:append 9 4]]}
+{:index 187, :time 9187710333, :type :fail, :process 0, :f :txn, :value [[:append 9 3] [:append 9 4]], :error [:not-supported "unsupported operation: txn"]}
+{:index 188, :time 9322551250, :type :invoke, :process 0, :f :txn, :value [[:append 9 5] [:append 9 6] [:r 9 nil] [:r 9 nil]]}
+{:index 189, :time 9330353250, :type :fail, :process 0, :f :txn, :value [[:append 9 5] [:append 9 6] [:r 9 nil] [:r 9 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 190, :time 9517209625, :type :invoke, :process 0, :f :txn, :value [[:append 7 4] [:r 9 nil] [:append 7 5]]}
+{:index 191, :time 9525680208, :type :fail, :process 0, :f :txn, :value [[:append 7 4] [:r 9 nil] [:append 7 5]], :error [:not-supported "unsupported operation: txn"]}
+{:index 192, :time 9549946000, :type :invoke, :process 0, :f :txn, :value [[:append 9 7] [:r 9 nil]]}
+{:index 193, :time 9564467750, :type :fail, :process 0, :f :txn, :value [[:append 9 7] [:r 9 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 194, :time 9676717458, :type :invoke, :process 0, :f :txn, :value [[:append 8 3] [:r 9 nil]]}
+{:index 195, :time 9681598875, :type :fail, :process 0, :f :txn, :value [[:append 8 3] [:r 9 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 196, :time 9701988917, :type :invoke, :process 0, :f :txn, :value [[:append 7 6] [:r 7 nil] [:r 9 nil]]}
+{:index 197, :time 9705868167, :type :fail, :process 0, :f :txn, :value [[:append 7 6] [:r 7 nil] [:r 9 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 198, :time 9818454042, :type :invoke, :process 0, :f :txn, :value [[:r 9 nil]]}
+{:index 199, :time 9822790833, :type :fail, :process 0, :f :txn, :value [[:r 9 nil]], :error [:not-supported "unsupported operation: txn"]}
+{:index 200, :time 9857304083, :type :invoke, :process 0, :f :txn, :value [[:append 7 7] [:append 8 4]]}
+{:index 201, :time 9869044875, :type :fail, :process 0, :f :txn, :value [[:append 7 7] [:append 8 4]], :error [:not-supported "unsupported operation: txn"]}

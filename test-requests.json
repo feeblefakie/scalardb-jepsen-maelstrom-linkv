@@ -1,0 +1,4 @@
+{"type": "init", "msg_id": 1, "src": "c1", "dest": "n1"}
+{"type": "read", "key": "foo", "msg_id": 2, "src": "c1", "dest": "n1"}
+{"type": "write", "key": "foo", "value": "bar", "msg_id": 3, "src": "c1", "dest": "n1"}
+{"type": "cas", "key": "foo", "from": "bar", "to": "baz", "msg_id": 4, "src": "c1", "dest": "n1"}

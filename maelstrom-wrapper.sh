@@ -1,0 +1,2 @@
+#!/bin/bash
+exec java -jar "/Users/hiroyuki/Dropbox/Docs/git/scalardb-maelstrom-kv/build/libs/scalardb-maelstrom-kv.jar" --config "/Users/hiroyuki/Dropbox/Docs/git/scalardb-maelstrom-kv/database.properties" "$@"
